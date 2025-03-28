@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom colors for Viken Bad
+				viken: {
+					blue: '#1EAEDB',
+					'dark-blue': '#0E5A7A',
+					gray: '#8A898C',
+					'light-gray': '#F6F6F7',
+					'dark-gray': '#403E43',
+					accent: '#F97316',
 				}
 			},
 			borderRadius: {
